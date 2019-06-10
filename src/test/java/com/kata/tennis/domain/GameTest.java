@@ -177,7 +177,7 @@ public class GameTest {
         set.playerTwoScoreGame();
         set.playerOneScoreGame();
         set.playerOneScoreGame();
-        assertThat( set.getTennisScoreSet(), is(equalTo("PlayerOne Win Set")));
+        assertThat( set.getTennisScoreSet(), is(equalTo("PlayerOne Win Match")));
     }
 
     @Test
